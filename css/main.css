@@ -5123,7 +5123,7 @@ figure.effect-bubba:hover p {
 }
 .second-page-container.light {
   padding-top: 140px;
-  background-image: url("../img/bg/bg-p-header1.jpg");
+  background-image: url("../img/bg/bg-p-header.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -5388,6 +5388,9 @@ form :-ms-input-placeholder {
 }
 .socials {
   text-align: left;
+}
+#cta {
+  background-image: url("../img/bg/bg-dark.jpg");
 }
 .socials a {
   display: inline-block;
