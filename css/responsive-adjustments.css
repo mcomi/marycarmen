@@ -42,10 +42,10 @@
     padding-top: 260px;
   }
   .second-page-header .second-page-header-title.no-bg h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .second-page-header .second-page-header-title.no-bg p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .payment-service h3 {
     text-align: center;
@@ -201,7 +201,11 @@
 @media (max-width: 480px) {
   /* Mobile */
   .second-page-container {
-    padding-top: 300px;
+    padding-top: 800px;
+    background-image: url("../img/bg/bg-p-header.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
   }
   .header .header-main .top-search-form {
     width: 100%;

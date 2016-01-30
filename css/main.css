@@ -5105,6 +5105,12 @@ figure.effect-bubba:hover p {
   background-position: center center;
   background-attachment: fixed;
 }
+
+/*@media (min-width: 320px){
+  .second-page-container {
+    background-size: 320px auto;
+  }
+}*/
 .second-page-container.bg2 {
   background-image: url("../img/bg/bg-p-header2.jpg") !important;
 }
