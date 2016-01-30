@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
     $(function () {
     /* ==============================================
      Scroll menu fix
-     =============================================== */        
+     =============================================== */
         var lastScroll = 0;
         var header = $(".header");
         var headerfixed = $("#header-main-fixed");
@@ -447,15 +447,22 @@ jQuery(document).ready(function ($) {
         });
 
     });
-    
+
     /* ==============================================
      Revolution slider
-     =============================================== */    
+     =============================================== */
     jQuery('.tp-banner').show().revolution(
             {
+                delay:15000,
+                startwidth:1800,
+                startheight:950,
+                hideThumbs:200,
+                fullWidth:"off",
+                fullScreen:"off",
+                fullScreenOffsetContainer: "",
                 dottedOverlay: "none",
                 delay: 16000,
-                startwidth: 1300,
+                startwidth: 1800,
                 startheight: 750,
                 hideThumbs: 200,
                 thumbWidth: 100,
@@ -465,7 +472,7 @@ jQuery(document).ready(function ($) {
                 navigationArrows: "solo",
                 navigationStyle: "preview1",
                 touchenabled: "on",
-                onHoverStop: "off",
+                // onHoverStop: "off",
                 swipe_velocity: 0.7,
                 swipe_min_touches: 1,
                 swipe_max_touches: 1,
@@ -478,35 +485,35 @@ jQuery(document).ready(function ($) {
                 navigationVAlign: "bottom",
                 navigationHOffset: 0,
                 navigationVOffset: 20,
-                soloArrowLeftHalign: "left",
-                soloArrowLeftValign: "center",
-                soloArrowLeftHOffset: 20,
-                soloArrowLeftVOffset: 0,
-                soloArrowRightHalign: "right",
-                soloArrowRightValign: "center",
-                soloArrowRightHOffset: 20,
-                soloArrowRightVOffset: 0,
+                // soloArrowLeftHalign: "left",
+                // soloArrowLeftValign: "center",
+                // soloArrowLeftHOffset: 20,
+                // soloArrowLeftVOffset: 0,
+                // soloArrowRightHalign: "right",
+                // soloArrowRightValign: "center",
+                // soloArrowRightHOffset: 20,
+                // soloArrowRightVOffset: 0,
                 shadow: 0,
-                fullWidth: "off",
-                fullScreen: "on",
+                // fullWidth: "on",
+                // fullScreen: "on",
                 spinner: "spinner1",
-                stopLoop: "off",
-                stopAfterLoops: -1,
-                stopAtSlide: -1,
-                shuffle: "off",
-                autoHeight: "off",
-                forceFullWidth: "on",
-                hideThumbsOnMobile: "off",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "off",
-                hideArrowsOnMobile: "off",
-                hideTimerBar: "on",
-                hideThumbsUnderResolution: 0,
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                startWithSlide: 0,
-                fullScreenOffsetContainer: ""
+                // stopLoop: "off",
+                // stopAfterLoops: -1,
+                // stopAtSlide: -1,
+                // shuffle: "off",
+                autoHeight: "on",
+                // forceFullWidth: "on",
+                // hideThumbsOnMobile: "off",
+                // hideNavDelayOnMobile: 1500,
+                hideBulletsOnMobile: "on"
+                // hideArrowsOnMobile: "off",
+                // hideTimerBar: "on",
+                // hideThumbsUnderResolution: 0,
+                // hideSliderAtLimit: 0,
+                // hideCaptionAtLimit: 0,
+                // hideAllCaptionAtLilmit: 0,
+                // startWithSlide: 0,
+                // fullScreenOffsetContainer: ""
             });
 
     $('.tool_tip').tooltip();
@@ -576,11 +583,11 @@ jQuery(document).ready(function ($) {
         var ez = $('#product-zoom').data('elevateZoom');
         ez.swaptheimage(smallImage, largeImage);
     });
-    
-    
+
+
     /* ==============================================
      Count down
-     =============================================== */    
+     =============================================== */
 // Daily Deal CountDown Clock Settings
     var date = new Date().getTime(); // This example is just to show how this function works.
     var new_date = new Date(date + 86400000); // You can set your own time whenever you want.
@@ -663,4 +670,3 @@ jQuery(document).ready(function ($) {
     };
 })(jQuery);
 new WOW().init();
-
