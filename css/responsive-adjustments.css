@@ -203,7 +203,7 @@
 @media (min-width: 320px) and (max-width: 1024px) {
   /* Mobile */
   .second-page-container.light {
-    padding-top: 130px;
+    padding-top: 190px;
     background-image: url("../img/bg/bg-p-header.jpg");
     background-size: 1320px auto;
     background-position: center top;
