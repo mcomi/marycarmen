@@ -87,11 +87,11 @@
   .header.light .header-main .header-main-block1.with-menu .navbar-main .nav > li > a {
     color: #f7f7f7;
   }
-  /*.header-main .navbar-collapse {
+  .header-main .navbar-collapse {
     z-index: 999;
     position: relative;
     background-color: #1e1e1e;
-  }*/
+  }
   .header-main .navbar-collapse h4 {
     color: rgba(247, 247, 247, 0.9);
   }
