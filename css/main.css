@@ -4931,6 +4931,15 @@ figure.effect-bubba:hover p {
   background-size: cover;
   background-position: center center;
 }
+@media (min-width: 768px) {
+  #section-featured,
+  #section-facts,
+  #capacitacion,
+  #section-cta,
+  #oncologica {
+      background-attachment: fixed;
+  }
+}
 #section-featured {
   background-image: url("../img/bg/bg2.jpg");
   background-size: cover;
@@ -4945,7 +4954,14 @@ figure.effect-bubba:hover p {
   /*background-attachment: fixed;*/
 }
 #capacitacion {
-  background-image: url("../img/preview/slider/9_bg.jpg");
+  background-image: url("../img/preview/slider/6_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+  -webkit-background-size: cover;
+}
+#oncologica{
+  background-image: url("../img/preview/slider/11_bg.jpg");
   background-size: cover;
   background-position: center center;
   /*background-attachment: fixed;*/
@@ -5137,9 +5153,9 @@ figure.effect-bubba:hover p {
 .second-page-container.light {
   padding-top: 20%;
   background-image: url("../img/bg/bg-p-header.jpg");
-  background-size: 1600px auto;
+  background-size: 1780px auto;
   background-position: center top;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
 /*@media (min-width: 320px){
