@@ -4935,27 +4935,27 @@ figure.effect-bubba:hover p {
   background-image: url("../img/bg/bg2.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 #section-facts {
   background-image: url("../img/preview/slider/9_bg.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 #capacitacion {
   background-image: url("../img/preview/slider/9_bg.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   -webkit-background-size: cover;
 }
 #section-cta {
   background-image: url("../img/bg/bg-header.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   -webkit-background-size: cover;
 }
 .panel-group .panel-default {

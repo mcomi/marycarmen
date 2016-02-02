@@ -205,10 +205,9 @@
   .second-page-container.light {
     padding: 130px;
     background-image: url("../img/bg/bg-p-header.jpg");
-    background-repeat: no-repeat;
     background-size: 1240px auto;
     background-position: center top;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
   }
 
   .second-page-header {
