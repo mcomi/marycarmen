@@ -851,7 +851,7 @@ header {
   margin-left: -30px;
 
 }
-@media (max-width: 680px) {
+@media (max-width: 1080px) {
   .header .header-main .header-main-block1.with-menu .navbar-main img{
     height: 150px;
     margin-left: 20px;
@@ -5151,9 +5151,10 @@ figure.effect-bubba:hover p {
    Second page style
    ========================================================================== */
 .second-page-container.light {
-  padding-top: 20%;
+  padding-top: 240px;
+  padding-bottom: 100px;
   background-image: url("../img/bg/bg-p-header.jpg");
-  background-size: 1780px auto;
+  background-size: 1720px auto;
   background-position: center top;
   background-attachment: fixed;
 }
