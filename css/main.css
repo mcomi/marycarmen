@@ -133,7 +133,17 @@ p {
   position: relative;
 }
 .block2 {
-  padding: 90px 0 60px;
+  padding: 60px 0 30px;
+  position: relative;
+  min-height: 500px;
+}
+.cta1 {
+  padding: 60px 0 30px;
+  position: relative;
+}
+.cta2 {
+  padding: 120px 0 90px;
+  background-color: rgba(0, 0, 0, 0.9);
   position: relative;
 }
 .block3 {
@@ -408,17 +418,17 @@ blockquote p,
 .header.light .top-welcome i {
   color: #1e1e1e;
 }
-.header.light .header-main.header-main-fixed .header-main-block1.with-menu {
+/*.header.light .header-main.header-main-fixed .header-main-block1.with-menu {
   background-color: #ffffff;
-}
-.header.light .header-main.header-main-fixed .header-main-block1.with-menu img{
+}*/
+/*.header.light .header-main.header-main-fixed .header-main-block1.with-menu img{
   height: 150px;
   background-color: #ffffff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   padding: 15px;
-}
+}*/
 
 .header.light .header-main.header-main-fixed .header-main-block1 {
   background-color: #ffffff;
@@ -2170,7 +2180,7 @@ blockquote {
 .header-for-light p {
   color: rgba(30, 30, 30, 0.5);
   margin: 30px 0 15px;
-  font-size: 14px;
+  font-size: 15px;
 }
 .header-for-light .header-bottom-line {
   display: block;
@@ -3055,7 +3065,7 @@ blockquote {
   color: #ffffff;
 }
 .block-feature.dark p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 .block-feature.dark i {
   color: rgba(255, 255, 255, 0.5);
@@ -3064,7 +3074,7 @@ blockquote {
   color: #ffffff;
 }
 .block-service-icon {
-  border: 2px solid rgba(30, 30, 30, 0.3);
+  border: 1px solid rgba(30, 30, 30, 0.3);
   position: relative;
   margin-bottom: 30px;
   background-color: #ffffff;
@@ -3094,7 +3104,7 @@ blockquote {
   letter-spacing: 2px;
   color: rgba(30, 30, 30, 0.7);
   font-weight: 600;
-  text-transform: inherit;
+  text-transform: uppercase;
 }
 .block-service-icon:hover {
   background-color: #1e1e1e;
@@ -3879,6 +3889,17 @@ thead > tr > th {
 @media (min-width: 680px) {
   .cart-table td:before {
     display: none;
+  }
+  .header.light .header-main.header-main-fixed .header-main-block1.with-menu {
+    background-color: #ffffff;
+  }
+  .header.light .header-main.header-main-fixed .header-main-block1.with-menu img{
+    height: 150px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 15px;
   }
 }
 
@@ -4917,6 +4938,18 @@ figure.effect-bubba:hover p {
   background-attachment: fixed;
 }
 #section-facts {
+  background-image: url("../img/preview/slider/9_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#capacitacion {
+  background-image: url("../img/preview/slider/9_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#section-cta {
   background-image: url("../img/bg/bg-header.jpg");
   background-size: cover;
   background-position: center center;
@@ -5135,7 +5168,7 @@ figure.effect-bubba:hover p {
   background-attachment: fixed;
 }
 .second-page-container.light .second-page-header .second-page-header-title {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.4);
   border: 4px solid rgba(30, 30, 30, 0.3);
 }
 .second-page-container.light .second-page-header .second-page-header-title h1 {

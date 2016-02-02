@@ -458,7 +458,7 @@ jQuery(document).ready(function ($) {
                 startheight:950,
                 hideThumbs:200,
                 fullWidth:"off",
-                fullScreen:"off",
+                fullScreen:"on",
                 fullScreenOffsetContainer: "",
                 dottedOverlay: "none",
                 delay: 16000,

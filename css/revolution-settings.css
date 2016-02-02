@@ -31,7 +31,7 @@ website:   	http://www.themepunch.com
     position:relative;
     padding:0;
     overflow: hidden;
-    
+
 }
 
 
@@ -1627,7 +1627,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    width: 300px;
+    width: 250px;
 }
 
 

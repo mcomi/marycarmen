@@ -4,7 +4,7 @@
 /* ============================== Skin Variables ============================ */
 @media (max-width: 991px) {
   .header.header-top-fixed {
-    position: fixed;
+    position: absolute;
   }
   .header.header-top-fixed .dis-n {
     display: block;
@@ -87,11 +87,11 @@
   .header.light .header-main .header-main-block1.with-menu .navbar-main .nav > li > a {
     color: #f7f7f7;
   }
-  .header-main .navbar-collapse {
+  /*.header-main .navbar-collapse {
     z-index: 999;
     position: relative;
     background-color: #1e1e1e;
-  }
+  }*/
   .header-main .navbar-collapse h4 {
     color: rgba(247, 247, 247, 0.9);
   }
@@ -201,7 +201,7 @@
 @media (max-width: 480px) {
   /* Mobile */
   .second-page-container {
-    padding-top: 800px;
+    /*padding-top: 800px;*/
     background-image: url("../img/bg/bg-p-header.jpg");
     background-size: contain;
     background-position: center center;
