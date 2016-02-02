@@ -133,9 +133,13 @@ p {
   position: relative;
 }
 .block2 {
+  padding: 60px 0 80px;
+  position: relative;
+}
+.image-separator {
   padding: 60px 0 30px;
   position: relative;
-  min-height: 500px;
+  min-height: 700px;
 }
 .cta1 {
   padding: 60px 0 30px;
@@ -2879,12 +2883,16 @@ blockquote {
 .block-feature-icon.center .block-title {
   padding: 0;
 }
+.block-feature-icon.center .icono-oncologia {
+  padding-top: 40px;
+}
+
 .block-feature-icon .block-title h4 {
   color: rgba(30, 30, 30, 0.7);
   margin: 0 0 10px;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 400;
   font-family: 'OpenSans', sans-serif;
   text-transform: inherit;
   -webkit-transition: all .3s ease;
@@ -5166,9 +5174,11 @@ figure.effect-bubba:hover p {
 }*/
 .second-page-container.bg2 {
   background-image: url("../img/bg/bg-p-header2.jpg") !important;
+  background-size: cover;
 }
 .second-page-container.bg3 {
-  background-image: url("../img/bg/bg-p-header3.jpg") !important;
+  background-image: url("../img/preview/slider/11_bg.jpg") !important;
+  background-size: cover;
 }
 .second-page-container.bg4 {
   background-image: url("../img/bg/bg-p-header4.jpg") !important;

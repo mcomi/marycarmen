@@ -210,7 +210,9 @@
     background-position: center top;
     /*background-attachment: fixed;*/
   }
-
+  .second-page-container.bg2 {
+    background-size: 1200px auto;
+  }
   .second-page-header {
     position: relative;
     padding: 40px 0 50px;
