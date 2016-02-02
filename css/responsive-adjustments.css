@@ -151,7 +151,7 @@
     font-size: 22px;
   }
   .second-page-header .second-page-header-title.no-bg h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .second-page-header .second-page-header-title.no-bg p {
     font-size: 14px;
@@ -198,15 +198,46 @@
     color: #ffffff;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 420px) {
   /* Mobile */
-  .second-page-container {
-    /*padding-top: 800px;*/
+  .second-page-container.light {
+    padding: 130px;
     background-image: url("../img/bg/bg-p-header.jpg");
-    background-size: contain;
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1080px auto;
+    background-position: center top;
     background-attachment: fixed;
   }
+}
+
+@media (min-width: 420px) and (max-width: 1024px) {
+  /* Mobile */
+  .second-page-container.light {
+    padding: 130px;
+    background-image: url("../img/bg/bg-p-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 1240px auto;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+
+  .second-page-header {
+    position: relative;
+    padding: 40px 0 50px;
+  }
+  .second-page-header .second-page-header-title {
+    display: inline-block;
+    background-color: rgba(30, 30, 30, 0.7);
+    padding: 20px 10px 40px;
+    border: 4px solid rgba(255, 255, 255, 0.7);
+  }
+
+  .second-page-header .second-page-header-title p {
+    margin: 0 0 5px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+  }
+
   .header .header-main .top-search-form {
     width: 100%;
     text-align: right;
