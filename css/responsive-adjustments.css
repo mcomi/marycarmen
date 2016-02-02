@@ -204,6 +204,7 @@
   /* Mobile */
   .second-page-container.light {
     padding-top: 190px;
+    padding-bottom: 50px;
     background-image: url("../img/bg/bg-p-header.jpg");
     background-size: 1320px auto;
     background-position: center top;
