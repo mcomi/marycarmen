@@ -2185,7 +2185,7 @@ blockquote {
 .header-for-light p {
   color: rgba(30, 30, 30, 0.5);
   margin: 30px 0 15px;
-  font-size: 15px;
+  font-size: 16px;
   text-align: justify;
 }
 .header-for-light .header-bottom-line {
@@ -2357,7 +2357,7 @@ blockquote {
 .header-for-black p {
   color: rgba(247, 247, 247, 0.5);
   margin: 30px 0 15px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .header-for-black .header-bottom-line {
   display: block;
@@ -5243,7 +5243,7 @@ figure.effect-bubba:hover p {
   margin: 0 0 5px;
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
-  text-align: justify;
+  text-align: center;
 }
 .second-page-header .second-page-header-title.no-bg {
   background: none;
