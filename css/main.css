@@ -3648,12 +3648,17 @@ blockquote {
 #owl-partners:hover .partner:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
-.google-map {
-  height: 400px;
+.disable-map {
+  background:transparent;
+   position:relative;
+   width:100%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
 }
-.google-map .google-map-frame {
+#map {
+  height: 400px;
   overflow: hidden;
-  height: 100% !important;
   width: 100% !important;
   border: none;
 }
