@@ -2188,6 +2188,7 @@ blockquote {
   font-size: 16px;
   text-align: justify;
 }
+
 .header-for-light .header-bottom-line {
   display: block;
   height: 1px;
@@ -2292,6 +2293,26 @@ blockquote {
 }
 .header-for-light.center p {
   text-align: justify;
+}
+.header-for-light.centrado {
+  text-align: center;
+}
+.header-for-light.centrado h1,
+.header-for-light.centrado h2,
+.header-for-light.centrado h3 {
+  text-align: center;
+}
+.header-for-light.centrado h1:before,
+.header-for-light.centrado h2:before,
+.header-for-light.centrado h3:before {
+  left: 50%;
+  margin-left: -20px;
+}
+.header-for-light.centrado h4 {
+  text-align: center;
+}
+.header-for-light.centrado p {
+  text-align: center;
 }
 .header-for-light.center .header-bottom-line {
   display: block;
@@ -5189,7 +5210,8 @@ figure.effect-bubba:hover p {
   background-size: cover;
 }
 .second-page-container.bg4 {
-  background-image: url("../img/bg/bg-p-header4.jpg") !important;
+  background-image: url("../img/preview/slider/12_bg.jpg") !important;
+  background-size: cover;
 }
 .second-page-container.bg5 {
   background-image: url("../img/bg/bg-p-header5.jpg") !important;
