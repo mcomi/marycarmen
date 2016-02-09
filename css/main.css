@@ -2785,8 +2785,8 @@ blockquote {
 .fact-block .fact {
   text-align: center;
   position: relative;
-  margin: 0 0 30px;
-  padding: 30px 0 20px;
+  margin: 0 0 10px;
+  padding: 20px 0 10px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -2795,19 +2795,19 @@ blockquote {
   background-color: rgba(30, 30, 30, 0.7);
 }
 .fact-block .fact .factor {
-  font-size: 40px;
+  font-size: 30px;
   color: #ffffff;
   margin: 20px 0;
 }
 .fact-block .fact h4 {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
-  margin: 15px 0;
+  font-size: 15px;
+  margin: 10px 0;
 }
 .fact-block .fact i {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 30px;
   color: rgba(255, 255, 255, 0.5);
 }
 .fact-block .fact:hover {
@@ -2986,8 +2986,8 @@ blockquote {
   float: left;
   top: 5px;
   cursor: pointer;
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   text-align: center;
   position: relative;
@@ -2995,8 +2995,8 @@ blockquote {
   color: #fff;
 }
 .hi-icon i {
-  line-height: 87px;
-  font-size: 54px;
+  line-height: 49px;
+  font-size: 32px;
 }
 .hi-icon:after {
   pointer-events: none;
@@ -4151,15 +4151,15 @@ Page Checkout
 }
 .tab-content.top-black {
   border-top: 2px solid #1e1e1e;
-  padding: 30px;
+  padding: 0 30px;
 }
 .tab-content {
   position: relative;
-  border-bottom: 2px solid #1e1e1e;
+  /*border-bottom: 2px solid #1e1e1e;
   border-left: 2px solid #1e1e1e;
-  border-right: 2px solid #1e1e1e;
+  border-right: 2px solid #1e1e1e;*/
   margin-top: -2px;
-  padding: 60px 30px 10px 30px;
+  padding: 10px 30px 10px 30px;
 }
 .tab-content .tab-pane {
   display: block;
@@ -5215,7 +5215,7 @@ figure.effect-bubba:hover p {
 }
 .second-page-container.bg5 {
   background-image: url("../img/bg/bg-p-header5.jpg") !important;
-  background-position: top center !important;
+  background-size: cover;
 }
 .second-page-container.bg6 {
   background-image: url("../img/bg/bg-p-header6.jpg") !important;
