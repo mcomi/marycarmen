@@ -4169,6 +4169,22 @@ Page Checkout
 .tab-content .tab-pane.active {
   height: inherit;
 }
+.tab-content.servicios {
+    position: relative;
+    border-bottom: 2px solid #1e1e1e;
+    border-left: 2px solid #1e1e1e;
+    border-right: 2px solid #1e1e1e;
+    margin-top: -2px;
+    padding: 60px 30px 10px 30px;
+}
+.tab-content.servicios .tab-pane {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.tab-content.servicios .tab-pane.active {
+  height: inherit;
+}
 /* ==========================================================================
 Page Blogs
 ========================================================================== */

@@ -3797,7 +3797,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 920px) {
+@media (max-width: 992px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -3819,7 +3819,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -3835,7 +3835,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: -15px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-left {
     float: left !important;
   }

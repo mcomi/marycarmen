@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* ============================== Skin Variables ============================ */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .header.header-top-fixed {
     position: absolute;
   }
@@ -71,7 +71,7 @@
     padding: 30px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   /* Tablet Portrait and Mobile */.navbar-main .top-icon-block {
     position: absolute;
     top: 0;
