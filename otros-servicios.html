@@ -423,8 +423,8 @@
         }
         function revisaHash(){
           if(location.hash){
-            console.log('el hash es: '+ activeTab);
             activeTab = location.hash.slice(1);
+            console.log('el hash es: '+ activeTab);
           }else{
             console.log('no tiene hash');
             activeTab = 'cursos';
