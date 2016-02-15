@@ -298,6 +298,7 @@ blockquote p,
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 /* ==========================================================================
    Header styles
    ========================================================================== */
@@ -4057,11 +4058,12 @@ Page Checkout
 }
 .nav-tabs.nav-justified > li > a {
   font-size: 16px;
-  letter-spacing: 2px;
-  font-weight: 600;
+  line-height: 1.1;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .nav-tabs > li .alt-tabs-icon {
+  font-family: icomoon;
   border: 2px solid rgba(30, 30, 30, 0.3);
   position: relative;
   background-color: #ffffff;
@@ -4074,7 +4076,7 @@ Page Checkout
   transition: all 0.3s ease;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .nav-tabs > li .alt-tabs-icon i {
@@ -5235,6 +5237,7 @@ figure.effect-bubba:hover p {
 }
 .second-page-container.bg6 {
   background-image: url("../img/bg/bg-p-header6.jpg") !important;
+  background-size: cover;
 }
 .second-page-container {
   padding-top: 140px;
